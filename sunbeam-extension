@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sunbeam fetch http://localhost:8000
