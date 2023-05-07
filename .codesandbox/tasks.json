@@ -4,9 +4,9 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "deno run -A index.ts": {
-      "name": "deno run -A index.ts",
-      "command": "deno run -A index.ts",
+    "start": {
+      "name": "Start development server",
+      "command": "deno run --allow-net index.ts",
       "runAtStart": true
     }
   }
